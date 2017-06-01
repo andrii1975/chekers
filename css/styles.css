@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+body{
+	display: block;
+	width: 100%;
+	max-width: 730px;
+	border:1px solid #fff;
+	margin:0 auto;
+	font-size: 0;
+}
+.chekers ul{
+	font-size: 0;
+	margin: 0;
+}
+li{ font-size: 0;
+	width: 12.5%;
+	height: 12.5%;
+	display: inline-block;
+	list-style-type: none;
+	border: 1px solid #fff;
+	background-color: #000;
+	box-sizing: border-box;
+	padding: 40px;
+	position: relative;
+	
+}
+.first div,.second div,.third div{
+	position: absolute;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: red;
+	margin: 0;
+	margin-top: -30%;
+	margin-left:-30%;
+}
+.sixth div,.seventh div,.eighth div{
+	position: absolute;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: grey;
+	margin: 0;
+	margin-top: -30%;
+	margin-left:-30%;
+}
+.first:nth-child(even),.third:nth-child(even),.fifth:nth-child(even),.seventh:nth-child(even){
+	background-color: #fff;
+}
+.second:nth-child(odd),.fourth:nth-child(odd),.sixth:nth-child(odd),.eighth:nth-child(odd){
+	background-color: #fff;
+}
